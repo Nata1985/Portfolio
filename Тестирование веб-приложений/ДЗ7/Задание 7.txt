@@ -1,0 +1,14 @@
+Урок 7. REST API
+1. Напишите тесты для API Restful Booker для следующих функций:
+Auth — CreateToken;
+Booking — GetBooking;
+Booking — CreateBooking;
+Booking — UpdateBooking или Booking — PartialUpdateBooking;
+Booking — DeleteBooking;
+Ping — HealthCheck.
+У каждого теста должны быть проверки хотя бы на статус ответа — 200, 201, 404 и т. д.
+Важно, чтобы токен и bookingid хранились в переменных Collection.
+Запускать тесты надо через Runner.
+Формат сдачи: экспортированный файл коллекции Postman. При необходимости:
+экспортированный Environment, если у вас там есть переменные;
+скриншот результатов запуска Runner.
